@@ -1,0 +1,12 @@
+Run the following codes in order to start the server
+
+chmod u+x run.bat #gives permission to run the server-starter
+chmod +x ngrok #gives permission to run the ip forwarder
+
+ngrok authtoken 2dhAVtxTLrsce4uFj7i423YCw4n_789LKYtxpHy1MSqPDBJEr #sets up the authkey for port forwarding
+
+ngrok tcp 25565 #starts a node at port 25565
+
+#make a new terminal
+
+./run.bat
